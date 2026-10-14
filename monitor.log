@@ -1,0 +1,64 @@
+2026-10-14 12:15:48,459 [INFO] Сервис запущен. Интервал: 60 мин
+2026-10-14 12:15:48,459 [INFO] ============================================================
+2026-10-14 12:15:48,459 [INFO] Цикл парсинга, старт: 2026-10-14T12:15:48
+2026-10-14 12:15:48,459 [INFO] Запуск парсера parsers\parser_kfu.py
+2026-10-14 12:15:48,459 [ERROR] Ошибка в парсере parser_kfu.py: module 'importlib' has no attribute 'util'
+Traceback (most recent call last):
+  File "D:\Pycharm\pythonProject\data analize\PZ3\main.py", line 65, in run_parsers
+    spec = importlib.util.spec_from_file_location(module_name, file_path)
+           ^^^^^^^^^^^^^^
+AttributeError: module 'importlib' has no attribute 'util'
+2026-10-14 12:15:48,468 [INFO] Запуск парсера parsers\parser_mirea.py
+2026-10-14 12:15:48,468 [ERROR] Ошибка в парсере parser_mirea.py: module 'importlib' has no attribute 'util'
+Traceback (most recent call last):
+  File "D:\Pycharm\pythonProject\data analize\PZ3\main.py", line 65, in run_parsers
+    spec = importlib.util.spec_from_file_location(module_name, file_path)
+           ^^^^^^^^^^^^^^
+AttributeError: module 'importlib' has no attribute 'util'
+2026-10-14 12:15:48,468 [INFO] Запуск парсера parsers\parser_rea.py
+2026-10-14 12:15:48,468 [ERROR] Ошибка в парсере parser_rea.py: module 'importlib' has no attribute 'util'
+Traceback (most recent call last):
+  File "D:\Pycharm\pythonProject\data analize\PZ3\main.py", line 65, in run_parsers
+    spec = importlib.util.spec_from_file_location(module_name, file_path)
+           ^^^^^^^^^^^^^^
+AttributeError: module 'importlib' has no attribute 'util'
+2026-10-14 12:15:48,470 [INFO] Сервис остановлен
+2026-10-14 12:28:55,232 [INFO] Сервис запущен. Интервал: 60 мин
+2026-10-14 12:28:55,232 [INFO] ============================================================
+2026-10-14 12:28:55,232 [INFO] Цикл парсинга, старт: 2026-10-14T12:28:55
+2026-10-14 12:28:55,232 [INFO] Запуск парсера parsers\parser_kfu.py
+2026-10-14 12:28:57,021 [INFO] Парсер parser_kfu.py завершён
+2026-10-14 12:28:57,021 [INFO] Запуск парсера parsers\parser_mirea.py
+2026-10-14 12:31:12,481 [INFO] Парсер parser_mirea.py завершён
+2026-10-14 12:31:12,481 [INFO] Запуск парсера parsers\parser_rea.py
+2026-10-14 12:31:15,762 [INFO] Парсер parser_rea.py завершён
+2026-10-14 12:31:15,769 [INFO] Новых новостей за интервал: 0
+2026-10-14 12:31:15,772 [INFO] send_list.txt сформирован, строк: 0
+2026-10-14 12:31:15,772 [INFO] Цикл завершён. Следующий запуск через 60 мин
+2026-10-14 14:02:53,277 [INFO] ============================================================
+2026-10-14 14:02:53,347 [INFO] Цикл парсинга, старт: 2026-10-14T14:02:53
+2026-10-14 14:02:53,350 [INFO] Запуск парсера parsers\parser_kfu.py
+2026-10-14 14:02:53,925 [INFO] Парсер parser_kfu.py завершён
+2026-10-14 14:02:53,925 [INFO] Запуск парсера parsers\parser_mirea.py
+2026-10-14 14:02:54,428 [INFO] Парсер parser_mirea.py завершён
+2026-10-14 14:02:54,428 [INFO] Запуск парсера parsers\parser_rea.py
+2026-10-14 14:02:54,432 [INFO] Парсер parser_rea.py завершён
+2026-10-14 14:02:54,436 [INFO] Новых новостей за интервал: 0
+2026-10-14 14:02:54,437 [INFO] send_list.txt сформирован, строк: 0
+2026-10-14 14:02:54,437 [INFO] Цикл завершён. Следующий запуск через 60 мин
+2026-10-14 14:04:32,275 [INFO] Получен Ctrl+C, завершение работы
+2026-10-14 14:04:32,276 [INFO] Сервис остановлен
+2026-10-14 14:06:18,471 [INFO] Сервис запущен. Интервал: 60 мин
+2026-10-14 14:06:18,471 [INFO] ============================================================
+2026-10-14 14:06:18,473 [INFO] Цикл парсинга, старт: 2026-10-14T14:06:18
+2026-10-14 14:06:18,473 [INFO] Запуск парсера parsers\parser_kfu.py
+2026-10-14 14:06:18,958 [INFO] Парсер parser_kfu.py завершён
+2026-10-14 14:06:18,958 [INFO] Запуск парсера parsers\parser_mirea.py
+2026-10-14 14:06:18,961 [INFO] Парсер parser_mirea.py завершён
+2026-10-14 14:06:18,961 [INFO] Запуск парсера parsers\parser_rea.py
+2026-10-14 14:06:18,964 [INFO] Парсер parser_rea.py завершён
+2026-10-14 14:06:18,968 [INFO] Новых новостей за интервал: 0
+2026-10-14 14:06:18,970 [INFO] send_list.txt сформирован, строк: 0
+2026-10-14 14:06:18,970 [INFO] Цикл завершён. Следующий запуск через 60 мин
+2026-10-14 16:16:53,678 [INFO] Получен Ctrl+C, завершение работы
+2026-10-14 16:16:53,678 [INFO] Сервис остановлен
